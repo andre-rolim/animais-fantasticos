@@ -1,5 +1,4 @@
-// carregar conteudo ao fazer scroll no site
-function initAnimacaoScroll() {
+export default function initAnimacaoScroll() {
   const sections = document.querySelectorAll('[data-anime="scroll"]');
   const windowMetade = window.innerHeight * 0.85; // pega um pouco mais da altura da tela para carregar o conteudo
 

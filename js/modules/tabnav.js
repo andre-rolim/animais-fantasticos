@@ -38,5 +38,6 @@ export default class TabNav {
             this.activeImg(0);
             this.addTabNavEvent();
         }
+        return this;
     }
   }
