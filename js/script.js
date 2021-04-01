@@ -9,6 +9,7 @@ import initFuncionamento from './modules/funcionamento.js';
 import initFetchAnimais from './modules/fetch-animais.js';
 import initFetchBitcoin from './modules/fetch-bitcoin.js';
 import initAnimaNumeros from './modules/anima-numeros.js';
+import initAnimacaoScroll from './modules/scroll-animacoes.js'
 
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
 scrollSuave.init();
@@ -29,3 +30,4 @@ initFuncionamento();
 initFetchAnimais();
 initFetchBitcoin();
 initAnimaNumeros();
+initAnimacaoScroll();
