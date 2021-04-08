@@ -1,4 +1,4 @@
-const debounce = function (callback, delay) {
+export default function debounce(callback, delay) {
   let timer;
 
   return (...args) => {
@@ -10,5 +10,4 @@ const debounce = function (callback, delay) {
       timer = null;
     }, delay);
   };
-};
-
+}
